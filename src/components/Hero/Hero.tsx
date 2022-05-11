@@ -8,21 +8,21 @@ export function Hero(){
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Olá 👋, eu sou</p>
+          <p>Hello 👋, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2*1000}>
-          <h1>João Túlio</h1>
+          <h1>Satish Gupta</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Desenvolvedor Full Stack</h3>
+          <h3>Senior Software Engineer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">Sou um técnico em informática com foco em desenvolvimento Web com JavaScript.</p>
+          <p className="small-resume">I'm a software engineer with a focus on web development with JavaScript on backend and frontend</p>
         </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
             <BrowserRouter>
-              <NavHashLink smooth to="#contato" className="button">Contato</NavHashLink>
+              <NavHashLink smooth to="#Contact" className="button">Contact</NavHashLink>
             </BrowserRouter>
           </ScrollAnimation>
       </div>

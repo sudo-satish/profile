@@ -20,8 +20,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>J</span>
-          <span>Tulio</span>
+          <span>Satish</span>
+          <span>Gupta</span>
         </HashLink>
 
         <input
@@ -38,13 +38,13 @@ export function Header() {
             Home
           </NavHashLink>
           <NavHashLink smooth to="#sobre" onClick={closeMenu}>
-            Sobre mim
+            About me
           </NavHashLink>
           <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
-            Portfólio
+            Projects
           </NavHashLink>
-          <NavHashLink smooth to="#contato" onClick={closeMenu}>
-            Contato
+          <NavHashLink smooth to="#Contact" onClick={closeMenu}>
+            Contact
           </NavHashLink>
           <a href={Curriculo} download className="button">
             CV

@@ -1,11 +1,11 @@
-# Portfólio João Túlio
+# Projects Satish Gupta
 
-Este projeto foi criado com CRA (Create React App).
+This project was created with CRA (Create React App).
 
-Este é meu site para me apresentar, aqui coloco minhas habilidades, portfólio, e formas de contato.
+This is my site to introduce myself, here I put my skills, Projects, and forms of Contact.
 
 
-## Tecnologias usadas:
+## Technologies used:
 - React
 - Typescript
 - Styled Components
